@@ -9,7 +9,7 @@
       "name": "gitlab-review",
       "source": {
         "source": "github",
-        "url": "ilshat-galimov/gitlab-review",
+        "repo": "ilshat-galimov/gitlab-review",
         "ref": "main"
       }
     }
