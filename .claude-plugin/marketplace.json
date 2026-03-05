@@ -1,0 +1,17 @@
+{
+  "name": "ilshat-galimov-plugins",
+  "owner": {
+    "name": "Ilshat Galimov",
+    "email": "einnks@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "gitlab-review",
+      "source": {
+        "source": "github",
+        "url": "ilshat-galimov/gitlab-review",
+        "ref": "main"
+      }
+    }
+  ]
+}
