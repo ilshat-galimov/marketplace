@@ -1,4 +1,4 @@
-# Piano Claude Plugins Marketplace
+# Ilshat Galimov Claude Code Plugins Marketplace
 
 A curated collection of [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins for Piano engineering teams.
 
@@ -10,13 +10,15 @@ A curated collection of [Claude Code](https://docs.anthropic.com/en/docs/claude-
 
 ## Installation
 
-Install a plugin from this marketplace using the Claude Code CLI:
+1. Add the marketplace to Claude Code:
+   ```
+   /plugin marketplace add ilshat-galimov/marketplace
+   ```
 
-```bash
-claude plugin install <plugin-name> --from marketplace
-```
-
-Or add the plugin source directly to your project's `.claude/plugins.json`.
+2. Install a plugin:
+   ```
+   /plugin install gitlab-review
+   ```
 
 ## Marketplace Structure
 
